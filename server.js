@@ -7,7 +7,7 @@ var Handlebars = require('handlebars');
 var Good = require('good');
 var GoodConsole = require('good-console');
 
-var port = process.env.PORT || 3000;
+var port = parseInt(process.env.PORT) || 3000;
 var server = new Hapi.Server({
     debug: { request: ['error'] },
     connections: {
