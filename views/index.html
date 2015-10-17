@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/highstock.js"></script>
+    <script src="js/exporting.js" async></script>
+    <script src="js/offline-exporting.js" async></script>
+    <script src="js/materialize.min.js" async></script>
+    <script src="js/money.min.js" async></script>
+    <script src="js/moment.min.js" async></script>
+</head>
+<body>
+<div class="container">
+    <h1>Currency Conversion</h1>
+    <h4>30 day stats</h4>
+    {{> loader }}
+    <div id="highcharts"></div>
+    <div id="highstock"></div>
+</div>
+<script src="js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "hapi1",
+  "version": "0.3.0",
+  "description": "Currency Stats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jayant Bhawal",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.3",
+    "hapi": "^11.0.0",
+    "hoek": "^2.16.3",
+    "inert": "^3.1.0",
+    "path": "^0.12.7",
+    "vision": "^3.0.0"
+  },
+  "devDependencies": {
+    "good": "^6.4.0",
+    "good-console": "^5.1.0"
+  }
+}
