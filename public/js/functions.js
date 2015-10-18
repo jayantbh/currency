@@ -42,7 +42,7 @@ $(function () {
             dateRange.push(date.format('DD'));
             //console.log(date.format('X')*1000);
             //console.log('http://api.fixer.io/' + moment().subtract(dateCount - i, 'days').format('YYYY-MM-DD') + '?base=USD')
-            $.getJSON('http://api.fixer.io/' + date.format('YYYY-MM-DD') + '?base=USD', function (data) {
+            $.getJSON('https://api.fixer.io/' + date.format('YYYY-MM-DD') + '?base=USD', function (data) {
                 currency.data.push([(parseInt(moment().subtract(dateCount - currency.data.length, 'days').format('X'))*1000),data.rates[currency.name]]);
                 for(var j = 0; j < series.length; j++){
                     series[j].data.push(data.rates[series[j].name]);
