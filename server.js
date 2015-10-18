@@ -35,7 +35,7 @@ server.register(Vision, function (err) {
         relativeTo: __dirname,
         path: './views',
         layoutPath: './views/layout',
-        helpersPath: './views/helpers',
+        //helpersPath: './views/helpers',
         partialsPath: './views/partials',
         context: defaultContext
     });

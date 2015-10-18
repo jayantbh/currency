@@ -14,3 +14,11 @@
 .bar {
   fill: FireBrick;
 }
+#highstock input {
+  background-color: white !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
