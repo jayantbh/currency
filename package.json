@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.0.3",
-    "hapi": "^11.0.0",
+    "hapi": "^18.1.0",
     "hoek": "^6.1.2",
     "inert": "^3.1.0",
     "path": "^0.12.7",
